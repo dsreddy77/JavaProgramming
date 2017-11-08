@@ -37,7 +37,6 @@ public class BankAccount {
 		System.out.println("-----------------------------------------");
 		
 		BankAccount account2 = new BankAccount();
-		//DataInputStream dis = new DataInputStream(System.in);
 		
 		account2.accountNumber = 12344;
 		account2.name = "Brahma";
