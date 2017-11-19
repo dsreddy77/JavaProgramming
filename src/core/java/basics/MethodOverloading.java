@@ -9,6 +9,11 @@ public class MethodOverloading {
 		return n1 + n2;
 	}
 	
+	//return type does not matter.
+	/*public String add(int n1, int n2){
+		return null;
+	}*/
+	
 	public int add(int n1, int n2, int n3){
 		System.out.println("* 2 *");
 		return n1 + n2 + n3;

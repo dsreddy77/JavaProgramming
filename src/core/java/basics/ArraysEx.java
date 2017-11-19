@@ -4,19 +4,25 @@ public class ArraysEx {
 
 	public static void main(String[] args) {
 		
-		String name = new String("Sudarshan");
+	//	String name = new String("Sudarshan");
 		String names[] = new String[3];
 		names[0] = "Sudarshan";
 		names[1] = "Harini";
 		names[2] = "Harika";
 		
-		String names1[] = {"Sudarshan", "Harini", "Harika"};
+	//	String names1[] = {"Sudarshan", "Harini", "Harika"};
 		
-		for(int i=0;i<names1.length;i++){
-			System.out.println(names1[i]);
-		}
+			for(int i=0;i<=names.length;i++){
+				try {
+					System.out.println(names[i]);
+				} catch (Exception e) {
+				
+				}
+			}
 		
-		int numbers [] = new int[5];
+		
+		System.out.println("End of the program ...");
+		
 	}
 
 }
